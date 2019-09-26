@@ -1,5 +1,5 @@
 {
-  "name": "Doc Theme",
+  "name": "classic",
   "author": "Zendesk",
   "version": "1.0.0",
   "api_version": 1,
@@ -19,7 +19,7 @@
           "type": "color",
           "description": "Brand color for hover and active states",
           "label": "Brand text color",
-          "value": "#ffffff"
+          "value": "rgba(245, 15, 15, 1)"
         },
         {
           "identifier": "text_color",
@@ -41,6 +41,27 @@
           "description": "Background color of your Help Center",
           "label": "Background color",
           "value": "#ffffff"
+        },
+        {
+          "identifier": "header_background_color",
+          "type": "color",
+          "description": "Background color of header",
+          "label": "Header Background color",
+          "value": "#3a3f4e"
+        },
+        {
+          "identifier": "sub_footer_background_color",
+          "type": "color",
+          "description": "Background color of Sub Footer",
+          "label": "Sub Footer Background color",
+          "value": "#3a3f4e"
+        },
+        {
+          "identifier": "hero_background_color",
+          "type": "color",
+          "description": "Background color of Hero Section",
+          "label": "Hero Section Background color",
+          "value": "#3a3f4e"
         }
       ]
     },
@@ -232,25 +253,6 @@
           "type": "file",
           "description": "Image for the community section on the home page",
           "label": "Community banner"
-        }
-      ]
-    },
-    {
-      "label": "Homepage",
-      "variables": [
-        {
-          "identifier": "homepage_title",
-          "type": "text",
-          "description": "The title text on the home page",
-          "label": "Homepage Title",
-          "value": "Welcome to Zen Themes!"
-        },
-        {
-          "identifier": "homepage_description",
-          "type": "text",
-          "description": "The description text displayed on the home page",
-          "label": "Homepage Description",
-          "value": "Get familiar with the features and how they work:"
         }
       ]
     }
